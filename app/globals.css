@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-ink dark:bg-dark-bg dark:text-dark-text transition-colors duration-500;
+    background: linear-gradient(135deg, #E3EEF5 0%, #D0E3F0 50%, #E8F0F5 100%);
+  }
+
+  .dark body,
+  body:has(.dark) {
+    background: linear-gradient(135deg, #0A1A28 0%, #0A1D30 50%, #0A1C35 100%);
+  }
+
+  ::selection {
+    @apply bg-teal/30 text-ink;
+  }
+}
+
+@layer components {
+  .doodle-card {
+    @apply bg-white/50 dark:bg-dark-surface/50 backdrop-blur-xl border border-white/40 dark:border-white/10 rounded-soft shadow-soft p-5 transition-all duration-300;
+  }
+
+  .doodle-card:hover {
+    @apply -translate-y-1 shadow-soft-lg border-teal/30 dark:border-teal/20;
+  }
+
+  .doodle-button {
+    @apply bg-teal/15 dark:bg-teal/10 border border-teal/25 dark:border-teal/20 rounded-soft shadow-soft px-5 py-2 font-semibold text-ink dark:text-dark-text transition-all duration-200 backdrop-blur-sm;
+  }
+
+  .doodle-button:hover {
+    @apply -translate-y-0.5 bg-teal/30 shadow-glow;
+  }
+
+  .doodle-tag {
+    @apply inline-block bg-white/40 dark:bg-white/5 border border-white/40 dark:border-white/10 rounded-pill px-3.5 py-1 text-xs font-medium text-ink/70 dark:text-dark-text/80 transition-all duration-200;
+  }
+
+  .doodle-tag:hover {
+    @apply bg-teal/25 border-teal/30 text-ink dark:text-dark-text;
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "hobby — AI+兴趣社交平台",
+    "description": "面向 Z 世代的潮流社交 APP，融合 AIGC 生成互动视频与多模态社交派对。",
+    "tech": [
+      "Spring Boot",
+      "Spring Cloud",
+      "Nacos",
+      "Redis",
+      "MongoDB",
+      "RocketMQ"
+    ],
+    "link": "https://www.xiaoxiangyoupin.cn"
+  },
+  {
+    "name": "小象优品 — 分期消费电商平台",
+    "description": "支撑日均百万级请求的分期电商平台，核心接口 QPS 峰值 2000+，99.99% 可用性。",
+    "tech": [
+      "Spring Boot",
+      "Spring Cloud",
+      "MySQL",
+      "Redis",
+      "RocketMQ"
+    ],
+    "link": "https://www.xiaoxiangyoupin.cn"
+  },
+  {
+    "name": "april.log — 个人博客",
+    "description": "深海蓝绿风格的个人博客，Next.js + TypeScript 构建，Markdown 驱动。",
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "MDX"
+    ]
+  },
+  {
+    "name": "跨境电商psylos1",
+    "description": "负责多租户账号体系搭建，完成多租户RBRA权限娇艳，以及CRM系统",
+    "tech": [
+      "java+vue"
+    ],
+    "link": "",
+    "github": ""
+  }
+]

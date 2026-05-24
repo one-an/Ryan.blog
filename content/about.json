@@ -1,0 +1,21 @@
+{
+  "intro": "嘿！我是武怡安，一个热爱技术的 Java 开发者。目前在 AI + 电商交叉领域深耕。平时喜欢用博客记录踩坑经验和学习心得，相信技术应该让生活更美好。",
+  "skills": ["Java", "Spring Boot", "Spring Cloud", "Dubbo", "Zookeeper", "MySQL", "Redis", "MongoDB", "PostgreSQL", "RocketMQ", "RabbitMQ", "Docker", "Linux", "Git", "TypeScript", "Next.js", "Tailwind CSS"],
+  "experiences": [
+    {
+      "period": "2020.10 - 2026.03",
+      "company": "北京源石云科技有限公司上海分公司",
+      "role": "Java 开发工程师",
+      "highlights": [
+        "主导电商核心链路微服务化改造，支撑日均百万级请求",
+        "设计 AI 会话架构，构建 10 亿+ 历史记忆存储系统",
+        "负责订单中心、营销模块核心开发，保障大促零故障",
+        "落地多级缓存架构，核心接口 RT 降低 50%+"
+      ]
+    }
+  ],
+  "education": [
+    { "period": "2024.09 - 至今", "school": "上海开放大学", "degree": "软件工程（本科）" },
+    { "period": "2018.09 - 2021.07", "school": "宿迁职业技术学院", "degree": "云计算技术与应用（大专）" }
+  ]
+}
