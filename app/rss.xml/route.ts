@@ -7,7 +7,7 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>april.log</title>
+    <title>Ryan.log</title>
     <description>写代码，也爱捣鼓有意思的事 — 武怡安的个人博客</description>
     <link>${baseUrl}</link>
     <language>zh-CN</language>

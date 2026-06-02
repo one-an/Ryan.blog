@@ -23,7 +23,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2 group">
           <span className="text-2xl group-hover:scale-110 transition-transform">🌸</span>
           <span className="font-bold text-lg hidden sm:block text-ink dark:text-dark-text">
-            april.log
+            Ryan.log
           </span>
         </Link>
 

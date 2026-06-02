@@ -6,12 +6,12 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
   title: {
-    default: "april.log — 写代码，也爱捣鼓有意思的事",
-    template: "%s | april.log",
+    default: "Ryan.log — 写代码，也爱捣鼓有意思的事",
+    template: "%s | Ryan.log",
   },
   description: "武怡安的个人博客 — Java 工程师的技术笔记与生活记录",
   openGraph: {
-    title: "april.log",
+    title: "Ryan.log",
     description: "写代码，也爱捣鼓有意思的事",
     type: "website",
     locale: "zh_CN",

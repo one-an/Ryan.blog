@@ -7,8 +7,8 @@ const JWT_SECRET = new TextEncoder().encode(
 const COOKIE_NAME = "admin_token";
 const EXPIRES_IN = "7d";
 
-export async function signToken(githubUsername: string): Promise<string> {
-  const token = await new SignJWT({ sub: githubUsername })
+export async function signToken(subject: string): Promise<string> {
+  const token = await new SignJWT({ sub: subject })
     .setProtectedHeader({ alg: "HS256" })
     .setIssuedAt()
     .setExpirationTime(EXPIRES_IN)

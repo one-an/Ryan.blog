@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "april-blog",
+      name: "ryan-blog",
       script: "node_modules/.bin/next",
       args: "start",
       instances: 1,

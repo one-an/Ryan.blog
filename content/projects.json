@@ -10,7 +10,7 @@
       "MongoDB",
       "RocketMQ"
     ],
-    "link": "https://www.xiaoxiangyoupin.cn"
+    "link": "https://apps.apple.com/cn/app/hobby-ai我的另一半/id1596735106"
   },
   {
     "name": "小象优品 — 分期消费电商平台",
@@ -25,7 +25,7 @@
     "link": "https://www.xiaoxiangyoupin.cn"
   },
   {
-    "name": "april.log — 个人博客",
+    "name": "Ryan.log — 个人博客",
     "description": "深海蓝绿风格的个人博客，Next.js + TypeScript 构建，Markdown 驱动。",
     "tech": [
       "Next.js",
@@ -34,14 +34,5 @@
       "Framer Motion",
       "MDX"
     ]
-  },
-  {
-    "name": "跨境电商psylos1",
-    "description": "负责多租户账号体系搭建，完成多租户RBRA权限娇艳，以及CRM系统",
-    "tech": [
-      "java+vue"
-    ],
-    "link": "",
-    "github": ""
   }
 ]
